@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width:100%;
+}
+header{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #5D564D;
+    position: fixed;
+}
+header  .titulo{
+    font-size: 30px;
+    margin-left: 50px;
+}
+header .titulo a{
+    font-family: 'Playfair Display', serif;
+}
+a button.botaog{
+    border-radius: 2px;
+    margin-right: 50px;
+    padding: 4px 23px;
+}
+a button.botaog#botaog1{
+    background-color: #5D564D;
+    border: 1px solid #FFF;
+    color: #fff;
+}
+a button.botaog#botaog1:hover{
+    background-color: #FBF7EE;
+    border: 1px solid #5D564D;
+    color: #5D564D;
+}
+a button.botaog#botaog2{
+    background-color: #FBF7EE;
+    color: #000;
+    border: 1px solid #000;
+}
+a button.botaog#botaog2:hover{
+    background-color: #5D564D;
+    color: #FBF7EE;
+    border: 1px solid #FBF7EE;
+}
+a button{
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+header a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+#abertura{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imgs/sala-interior.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#abertura p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 0px 70px 70px;
+}
+#anunciosrecentes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBF7EE;
+}
+#anunciosrecentes .cabeca{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    margin: 50px 0px 40px 50px;
+}
+#anunciosrecentes .corpo{
+    display: flex;
+    align-items: center;
+}
+#anunciosrecentes .corpo img{
+    width: 50%;
+    margin: 0px 20px 50px 0px;
+}
+.texto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: -90px 90px 0px 90px;
+}
+.texto p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto .subtitulo{
+    width: 90%;
+    margin-bottom: 30px;
+}
+.texto .subtitulo p{
+    font-weight: bold;
+    font-size: 35px;
+}
+.texto .descricao{
+    font-size: 28px;
+    color: #000;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.texto .botaodesc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#novos-servicos{
+    width: 100%;
+    height: 100vh;
+    background-color: #FBF7EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#novos-servicos #novos-titulo{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+#novos-servicos .servicos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.servicos .tipos{
+    height: 75vh;
+    margin: 0px 20px 20px 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#comprando{
+    background-image: url(../imgs/cozinha-americana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#vendendo{
+    background-image: url(../imgs/sala-apartamento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#alugando{
+    background-image: url(../imgs/casa-alugando.jpg);
+}
+.tipos .quadro{
+    background-color: #fff;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+}
+.quadro .nome-servico p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    margin: 5px 40px;
+}
+.quadro .descricao-servico p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px 40px;
+    color: #858585;
+}
+.frase-final{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imgs/apartamento-escuro.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.frase-final p{
+    width: 60%;
+    color: #fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sobre{
+    width: 100%;
+    height: 85vh;
+    background-color: #5D564D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre .sobre-caixa{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sobre p{
+    font-size: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sobre .nome{
+    font-weight: bold;
+    width: 50%;
+    height: 40%;
+}
+.sobre .endereco{
+    font-weight: bold;
+    width: 50%;
+    height: 40%;
+}
+.sobre .endereco .rua{
+    font-weight: normal;
+}
+.sobre .email{
+    width: 50%;
+    height: 60%;
+    font-weight: bold;
+}
+.sobre .telefone{
+    font-weight: bold;
+    width: 50%;
+    height: 60%;
+}
+.sobre .telefone .numero{
+    font-weight: normal;
+}
+
+@media(max-width: 640px){
+    header {
+        width: 100vw;
+        height: 13%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        background-color: #5D564D;
+        position: fixed;
+    }
+    #abertura p{
+        width: 100%;
+    }
+    #anunciosrecentes .cabeca {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+    #anunciosrecentes .corpo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #anunciosrecentes .corpo img{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 100px;
+    }
+    .texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 0px;
+    }
+    .texto .subtitulo{
+        width: 60%;
+        margin-top: 20px;
+    }
+    .texto .subtitulo p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .texto .descricao {
+        font-size: 20px;
+        color: #000;
+        width: 80%;        
+    }
+    #novos-servicos {
+        width: 100%;
+        background-color: #FBF7EE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 95%;
+        margin-bottom: 66vh;
+    }
+    #novos-servicos #novos-titulo{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    #novos-servicos #novos-titulo p{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        margin: 20px 0px;
+    }
+    #novos-servicos .servicos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .servicos .tipos {
+        width: 100%;
+        height: 70vh;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    main{
+        width: 100%;
+    }
+}
